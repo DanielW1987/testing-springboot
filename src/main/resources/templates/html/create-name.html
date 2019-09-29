@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Name</title>
+</head>
+<body>
+
+  <form id="createNameForm" name="createNameForm" action="#" th:action="@{/create-name}" th:object="${createNameRequest}" method="POST">
+    <input type="text" id="firstName" name="firstName" th:field="*{firstName}" autofocus>
+    <label for="firstName">First name</label>
+
+    <input type="text" id="lastName" name="lastName" th:field="*{lastName}">
+    <label for="lastName">Last name</label>
+
+    <button type="submit">Create name</button>
+  </form>
+
+</body>
+</html>

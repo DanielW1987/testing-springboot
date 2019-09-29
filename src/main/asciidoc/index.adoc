@@ -1,0 +1,70 @@
+= Demo
+Daniel Wagner;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Sprint REST Docs with JUnit5.
+
+`CertificationsRestController` makes a call to a very simple service and produces three
+documentation snippets.
+
+
+== Find certification by id
+One showing how to make a request using cURL:
+include::{snippets}/v1/certification-by-id/curl-request.adoc[]
+
+One showing the HTTP request:
+include::{snippets}/v1/certification-by-id/http-request.adoc[]
+
+And one showing the HTTP response:
+include::{snippets}/v1/certification-by-id/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/certification-by-id/response-body.adoc[]
+
+
+== Find certification by id (with response)
+One showing how to make a request using cURL:
+include::{snippets}/v1/certification-by-id-with-response/curl-request.adoc[]
+
+One showing the HTTP request:
+include::{snippets}/v1/certification-by-id-with-response/http-request.adoc[]
+
+And one showing the HTTP response:
+include::{snippets}/v1/certification-by-id-with-response/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/certification-by-id-with-response/response-body.adoc[]
+
+Response Fields:
+include::{snippets}/v1/certification-by-id-with-response/response-fields.adoc[]
+
+
+== Find certification by name
+One showing how to make a request using cURL:
+include::{snippets}/v1/certification-by-name/curl-request.adoc[]
+
+One showing the HTTP request:
+include::{snippets}/v1/certification-by-name/http-request.adoc[]
+
+And one showing the HTTP response:
+include::{snippets}/v1/certification-by-name/http-response.adoc[]
+
+Response Body:
+include::{snippets}/v1/certification-by-name/response-body.adoc[]
+
+
+== Create certification
+One showing how to make a request using cURL:
+include::{snippets}/v1/create-certification/curl-request.adoc[]
+
+One showing the HTTP request:
+include::{snippets}/v1/create-certification/http-request.adoc[]
+
+And one showing the HTTP response:
+include::{snippets}/v1/create-certification/http-response.adoc[]
+
+Request Fields:
+include::{snippets}/v1/create-certification/request-fields.adoc[]
+
